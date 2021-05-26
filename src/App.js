@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <div className="event-list">
       {events && Array.isArray(events) && events.length > 0 && events.map(data => {
-       return(       <div className="event-item" >
+       return(<div className="event-item" >
        <img src={data.image}/>
        <div>{data.name}</div>
      </div>)
