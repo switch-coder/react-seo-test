@@ -1,10 +1,12 @@
 import React from 'react'
+import './App.css';
+import Router from "./routes/Router";
 
 const App = () => {
     return (
-        <h1>
-            Hello webpack react
-        </h1>
+        <div className="App">
+            <Router />
+        </div>
     )
 }
 
