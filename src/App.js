@@ -1,14 +1,11 @@
-import React, {useEffect,useState} from 'react';
-import Router from "./routes/Router"
-import "./App.css"
+import React from 'react'
 
-function App() {
-
-  return (
-    <div className="App">
-      <Router />
-    </div>
-  );
+const App = () => {
+    return (
+        <h1>
+            Hello webpack react
+        </h1>
+    )
 }
 
 export default App;
