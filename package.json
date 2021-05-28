@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
-    "build": "Webpack .",
+    "build": "webpack .",
     "postbuild": "react-snap"
   },
   "reactSnap": {
