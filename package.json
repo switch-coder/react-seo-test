@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
-    "build": "OUTPUT=$(curl http://localhost:3001/api/getEvents) && echo $OUTPUT > seo.json && Webpack .",
+    "build": "OUTPUT=$(curl http://ec2-54-180-118-162.ap-northeast-2.compute.amazonaws.com:3001/api/getEvents) && echo $OUTPUT > seo.json && Webpack .",
     "postbuild": "react-snap"
   },
   "reactSnap": {
