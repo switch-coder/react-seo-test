@@ -1,0 +1,77 @@
+/*! 빌드 날짜: 2021. 5. 28. 오후 3:34:17 */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.event-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.event-item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.event-item-image {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.event-item-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.event-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.event-detail-img {
+  width: 50vw;
+  border-radius: 5%;
+}
+
+
