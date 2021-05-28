@@ -11,7 +11,6 @@ export default () => {
         <Route exact={true} path="/" component={EventList} />
         <Route  exact={true} path="/detail/:id" component={EventDetail} />
         {/* Not Found */}
-        <Redirect to=""></Redirect>
       </Switch>
     </Router>
   );
