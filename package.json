@@ -9,9 +9,8 @@
   "main": "index.js",
   "scripts": {
     "dev" : "node server.js",
-    "start": "node server.js",
-    "build": "webpack .",
-    "postbuild": "react-snap"
+    "postinstall": "webpack . && react-snap",
+    "start": "node server.js"
   },
   "reactSnap": {
     "source": "public",
